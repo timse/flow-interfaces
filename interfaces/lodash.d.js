@@ -411,6 +411,7 @@ declare module 'lodash' {
     trimEnd(string?: string, chars?: string): string;
     trimStart(string?: string, chars?: string): string;
     truncate(string?: string, options?: TruncateOptions): string;
+    trunc(string?: string, options?: TruncateOptions): string;
     unescape(string?: string): string;
     upperCase(string?: string): string;
     upperFirst(string?: string): string;
