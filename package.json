@@ -1,0 +1,23 @@
+{
+  "name": "flow-interfaces",
+  "version": "0.1.0",
+  "description": "Flow interface definitions for common 3rd-party modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technologyadvice/flow-interfaces.git"
+  },
+  "keywords": [
+    "flow",
+    "interfaces"
+  ],
+  "author": "David Zukowski <david@zuko.me> (zuko.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/technologyadvice/flow-interfaces/issues"
+  },
+  "homepage": "https://github.com/technologyadvice/flow-interfaces#readme"
+}
