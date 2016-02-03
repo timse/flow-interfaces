@@ -1,6 +1,6 @@
 type Action = {
   type: string,
-  payload?: Object,
-  error?: Object,
+  payload?: any,
+  error?: Object | boolean,
   meta?: Object,
 };
