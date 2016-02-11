@@ -112,6 +112,7 @@ declare module 'lodash' {
     unionWith<T>(a1: Array<T>, a2: Array<T>, a3: Array<T>, a4: Array<T>, comparator?: Comparator<T>): Array<T>;
 
     uniq<T>(array: ?Array<T>): Array<T>;
+    unique<T>(array: ?Array<T>): Array<T>;
     uniqBy<T>(array: ?Array<T>, iteratee?: Iteratee<T>): Array<T>;
     uniqWith<T>(array: ?Array<T>, comparator?: Comparator<T>): Array<T>;
     unzip<T>(array: ?Array<T>): Array<T>;
