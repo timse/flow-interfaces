@@ -44,6 +44,7 @@ declare module 'axios' {
     delete: <T>(url: string, config?: AxiosXHRConfigBase<T>) => Promise<T>;
     head: <T>(url: string, config?: AxiosXHRConfigBase<T>) => Promise<T>;
     post: <T>(url: string, data?: any, config?: AxiosXHRConfigBase<T>) => Promise<T>;
+    patch: <T>(url: string, data?: any, config?: AxiosXHRConfigBase<T>) => Promise<T>;
     put: <T>(url: string, data?: any, config?: AxiosXHRConfigBase<T>) => Promise<T>;
     interceptors: {
       request: AxiosRequestInterceptor<any>,
