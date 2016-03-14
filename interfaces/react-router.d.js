@@ -8,6 +8,7 @@ declare module 'react-router' {
     browserHistory: any;
     match: Function;
     RouterContext: ReactClass;
+    useRouterHistory: (historyFactory: Function) => (options: ?Object) => Object;
   }
   declare var exports: ReactRouter;
 }
