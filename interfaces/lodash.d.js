@@ -83,6 +83,7 @@ declare module 'lodash' {
     join<T>(array: ?Array<T>, separator?: string): string;
     last<T>(array: ?Array<T>): T;
     lastIndexOf<T>(array: ?Array<T>, value: T, fromIndex?: number): number;
+    pluck<T>(array: ?Array<T>, path: string): Array<T>;
     pull<T>(array: ?Array<T>, ...values?: Array<T>): Array<T>;
     pullAll<T>(array: ?Array<T>, values: Array<T>): Array<T>;
     pullAllBy<T>(array: ?Array<T>, values: Array<T>, iteratee?: Iteratee<T>): Array<T>;
