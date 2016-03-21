@@ -5,9 +5,9 @@ declare module 'react-redux' {
     static WrappedComponent: ReactClass;
     getWrappedInstance(): React.Component;
   }
-  declare var Provider: ReactClass;
-  declare function connect(mapStateToProps?: (state: Object, ownProps: any) => Object, mapDispatchToProps?: any, mergeProps?: (stateProps: any, dispatchProps: any, ownProps: any) => any, options?: {
+  declare var Provider: React.Component;
+  declare function connect(mapStateToProps?: (state: Object, ownProps: Object) => Object, mapDispatchToProps?: any, mergeProps?: (stateProps: any, dispatchProps: any, ownProps: any) => any, options?: {
     pure?: bool,
     withRef?: bool,
-  }): (component: ReactClass) => ConnectedReactClass;
+  }): (component: ReactClass) => ReactClass;
 }
